@@ -20,10 +20,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  */
 class WorkbookUtil {
 
-  private static final String inFileName = "/home/tangdongyu/Downloads/book.xlsx";
-  private static final String outFileName = "/home/tangdongyu/Documents/result.xlsx";
 
-  static List<String> getISBNs() {
+  static List<String> getISBNs(String inFileName) {
     List<String> list = new ArrayList<>();
     try (Workbook workbook = WorkbookFactory.create(new File(inFileName));) {
       Sheet sheet = workbook.getSheetAt(0);
@@ -65,7 +63,7 @@ class WorkbookUtil {
   }
 
 
-  static void writeWorkbook(Workbook workbook) {
+  static void writeWorkbook(String outFileName, Workbook workbook) {
     if (workbook == null) {
       return;
     }
