@@ -1,3 +1,5 @@
+package pers.ccdongyu.crawler;
+
 /**
  * @author ccdongyu
  * @version 1.0

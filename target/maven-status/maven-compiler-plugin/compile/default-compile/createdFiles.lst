@@ -1,6 +1,6 @@
-CrawlerUtil.class
-BookRecord$1.class
-Client.class
-BookRecord$Builder.class
-WorkbookUtil.class
-BookRecord.class
+pers/ccdongyu/crawler/Client.class
+pers/ccdongyu/crawler/WorkbookUtil.class
+pers/ccdongyu/crawler/BookRecord.class
+pers/ccdongyu/crawler/BookRecord$Builder.class
+pers/ccdongyu/crawler/CrawlerUtil.class
+pers/ccdongyu/crawler/BookRecord$1.class
